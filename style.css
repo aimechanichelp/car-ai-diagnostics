@@ -1,3 +1,12 @@
+.logo-container {
+    text-align: center; /* centers the image horizontally */
+    margin: 20px 0;     /* optional: adds spacing above and below */
+}
+
+.site-logo {
+    width: 150px;       /* adjust size as needed */
+    height: auto;       /* maintains aspect ratio */
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;

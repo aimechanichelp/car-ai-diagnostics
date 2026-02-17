@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  background: #020617;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 260px;
+  text-align: center;
+}
+
+.premium {
+  border: 2px solid #38bdf8;
+}
+
+button {
+  padding: 12px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.upload {
+  text-align: center;
+  margin: 60px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+}

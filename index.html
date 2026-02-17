@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Instant Car Diagnosis</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Instant AI Car Diagnosis</h1>
+  <p>Upload a sound or dashboard photo — get mechanic advice in 60 seconds</p>
+</header>
+
+<section class="pricing">
+  <div class="card">
+    <h2>Basic Scan</h2>
+    <p>$19</p>
+    <ul>
+      <li>Fault detection</li>
+      <li>Repair explanation</li>
+      <li>Urgency level</li>
+    </ul>
+    <button onclick="buyNow()">Get Diagnosis</button>
+  </div>
+
+  <div class="card premium">
+    <h2>Full Report</h2>
+    <p>$39</p>
+    <ul>
+      <li>Everything in Basic</li>
+      <li>Parts cost estimate</li>
+      <li>Can you still drive?</li>
+      <li>DIY instructions</li>
+    </ul>
+    <button onclick="buyNow()">Get Full Report</button>
+  </div>
+</section>
+
+<section class="upload">
+  <h2>Upload Your Car Problem</h2>
+  <input type="file" id="fileUpload">
+  <textarea placeholder="Describe the issue..."></textarea>
+  <button onclick="submitIssue()">Submit</button>
+</section>
+
+<footer>
+  <p>© AI Mechanic Assistant</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

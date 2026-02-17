@@ -6,11 +6,28 @@
 <title>Instant Car Diagnostics</title>
 <link rel="stylesheet" href="style.css">
 </head>
+<div id="authModal" class="modal">
+  <div class="modal-box">
+    <h2 id="modalTitle">Login</h2>
+
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="submitAuth()">Continue</button>
+    <button onclick="closeModal()">Cancel</button>
+  </div>
+</div>
+
 <body>
 <header>
+    <div class="auth-buttons">
+    <button onclick="openSignup()">Sign Up</button>
+    <button onclick="openLogin()">Sign In</button>
+    <button id="logoutBtn" onclick="logout()" style="display:none;">Logout</button>
+</div>
     <!-- Centered Logo -->
-    <div style="text-align:center; margin:15px 0;">
-        <img src="./assets/logo.png" alt="AI Mechanic Logo" style="width:180px; max-width:120%; height:auto;">
+    <div style="text-align:center; margin:12px 0;">
+        <img src="./assets/logo.png" alt="AI Mechanic Logo" style="width:200px; max-width:120%; height:auto;">
     </div>
     <h1>Instant AI Car Diagnostics</h1>
     <p>Upload a sound or dashboard photo — get mechanic advice in 60 seconds</p>

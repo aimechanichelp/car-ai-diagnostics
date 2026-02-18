@@ -1,7 +1,7 @@
 /* Logo container: centers the logo */
 .logo-container {
     text-align: center;    /* horizontal centering */
-    margin: 10px 0;        /* spacing above and below */
+    margin: 15px 0;        /* spacing above and below */
 }
 
 /* Logo image: responsive */

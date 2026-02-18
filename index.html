@@ -33,48 +33,44 @@
     <p>Upload a sound or dashboard photo — get mechanic advice in 60 seconds</p>
 
 </header>
-<section class="pricing">
-  <div class="card">
-    <h2>Basic Scan</h2>
-    <p>$19</p>
-    <ul>
-      <li>Fault detection</li>
-      <li>Repair explanation</li>
-      <li>Urgency level</li>
-    </ul>
- <!-- PRICING SECTION -->
+
+<!-- PRICING -->
 <section class="pricing-section">
 
-    <div class="pricing-container">
+    <div class="pricing-wrapper">
 
-        <div class="price-box">
-            <h3>Get Diagnostics</h3>
-            <p>Quick AI analysis of your car problem</p>
-            <button onclick="buyNow()">Get Diagnostics</button>
+        <!-- BASIC -->
+        <div class="pricing-card">
+            <h2>Basic Scan</h2>
+            <div class="price">$19</div>
+
+            <ul>
+                <li>Fault detection</li>
+                <li>Repair explanation</li>
+                <li>Urgency level</li>
+            </ul>
+
+            <button class="buy-btn" onclick="buyNow()">Get Diagnostics</button>
         </div>
 
-        <div class="price-box">
-            <h3>Full Report</h3>
-            <p>Detailed mechanic-level report + repair advice</p>
-            <button onclick="buyNow()">Get Full Report</button>
+        <!-- FULL -->
+        <div class="pricing-card featured">
+            <h2>Full Report</h2>
+            <div class="price">$39</div>
+
+            <ul>
+                <li>Everything in Basic</li>
+                <li>Parts cost estimate</li>
+                <li>Can you still drive?</li>
+                <li>DIY repair steps</li>
+            </ul>
+
+            <button class="buy-btn" onclick="buyNow()">Get Full Report</button>
         </div>
 
     </div>
 
-</section>
-
-  <div class="card premium">
-    <h2>Full Report</h2>
-    <p>$39</p>
-    <ul>
-      <li>Everything in Basic</li>
-      <li>Parts cost estimate</li>
-      <li>Can you still drive?</li>
-      <li>DIY instructions</li>
-    </ul>
-    <button onclick="buyNow()">Get Full Report</button>
-  </div>
-</section>
+  </section>
 
 <section class="upload">
   <h2>Upload Your Car Issue For Diagnostics</h2>

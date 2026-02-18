@@ -172,3 +172,36 @@ footer {
     margin:8px 0;
     padding:8px;
 }
+/* ===== CENTER PRICING BOXES ===== */
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.price-box {
+    width: 260px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.price-box button {
+    margin-top: 15px;
+    padding: 10px 16px;
+    border: none;
+    background: #1f6feb;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.price-box button:hover {
+    background: #1558c0;
+}

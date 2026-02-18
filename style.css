@@ -253,7 +253,11 @@ footer {
 }
 
 /* MOBILE */
-@media (max-width: 500px) {
+}@media (max-width: 500px) {
+  h1 {
+    font-size: 22px;
+  }
+}
     .pricing-wrapper {
         grid-template-columns: 1fr;
     }
@@ -302,9 +306,3 @@ header p {
 header img {
     display: block;
     margin: 40px auto 5px auto; /* top right bottom left */
-
-}@media (max-width: 500px) {
-  h1 {
-    font-size: 22px;
-  }
-}
